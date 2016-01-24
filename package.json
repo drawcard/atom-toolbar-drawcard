@@ -1,9 +1,9 @@
 {
-  "name": "tool-bar-almighty",
-  "main": "./lib/tool-bar-almighty",
-  "version": "0.6.1",
+  "name": "atom-toolbar-drawcard",
+  "main": "./lib/atom-toolbar-drawcard",
+  "version": "0.0.1",
   "description": "A tool-bar plugin that adds an 'almighty toolbar' with many commonly used actions",
-  "repository": "https://github.com/varemenos/atom-toolbar-almighty",
+  "repository": "https://github.com/drawcard/atom-toolbar-drawcard",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
