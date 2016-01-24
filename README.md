@@ -1,4 +1,4 @@
-Drawcard's Toolbar
+# Drawcard's Toolbar
 
 Forked from [this wonderful repo](https://atom.io/packages/tool-bar-almighty) :+1:
 
