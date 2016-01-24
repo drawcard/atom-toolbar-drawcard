@@ -1,10 +1,12 @@
-Toolbar Almighty - a tool-bar plugin
+Drawcard's Toolbar
+
+Forked from [this wonderful repo](https://atom.io/packages/tool-bar-almighty) :+1:
 
 > A tool-bar plugin that adds many commonly used actions in the tool-bar.
 
 ## Toolbar entries
 
-![screenshot](https://rawgit.com/varemenos/atom-toolbar-almighty/master/screenshot.png)
+(insert screenshot)
 
 Available toolbar buttons:
 
@@ -41,10 +43,10 @@ First you have to install the `tool-bar` package which is required:
 apm install tool-bar
 ```
 
-Then you install the `tool-bar-almighty` package:
+Then you install the `atom-toolbar-drawcard` package:
 
 ```bash
-apm install tool-bar-almighty
+apm install atom-toolbar-drawcard
 ```
 
 ## Options
