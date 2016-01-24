@@ -2,7 +2,7 @@
   "name": "atom-toolbar-drawcard",
   "main": "./lib/atom-toolbar-drawcard",
   "version": "0.0.1",
-  "description": "A tool-bar plugin that adds an 'almighty toolbar' with many commonly used actions",
+  "description": "Drawcard's take on the perfect toolbar for Atom. Requires tool-bar package.",
   "repository": "https://github.com/drawcard/atom-toolbar-drawcard",
   "license": "MIT",
   "engines": {
