@@ -1,9 +1,9 @@
 {
-  "name": "atom-toolbar-drawcard",
-  "main": "./lib/atom-toolbar-drawcard",
+  "name": "toolbar-drawcard",
+  "main": "./lib/toolbar-drawcard",
   "version": "0.0.1",
   "description": "Drawcard's take on the perfect toolbar for Atom. Requires tool-bar package.",
-  "repository": "https://github.com/drawcard/atom-toolbar-drawcard",
+  "repository": "https://github.com/drawcard/toolbar-drawcard",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
