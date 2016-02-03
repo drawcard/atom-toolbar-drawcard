@@ -22,22 +22,6 @@ module.exports = [
   },
   {
     type: 'button'
-    tooltip: 'Git Control'
-    dependency: 'git-control'
-    callback: 'git-control:toggle'
-    icon: 'bullseye'
-    iconset: 'fa'
-  },
-  {
-    type: 'button'
-    tooltip: 'Git Projects'
-    dependency: 'git-projects'
-    callback: 'git-projects:toggle'
-    icon: 'git'
-    iconset: 'fa'
-  },
-  {
-    type: 'button'
     tooltip: 'List projects'
     dependency: 'project-manager'
     callback: 'project-manager:list-projects'
@@ -46,6 +30,57 @@ module.exports = [
   {
     type: 'spacer'
   },
+  {
+    type: 'button'
+    tooltip: 'Git Commands'
+    dependency: 'git-plus'
+    callback: 'git-plus:menu'
+    icon: 'git'
+    iconset: 'fa'
+  },
+    {
+      type: 'button'
+      tooltip: 'Git - Add All & Commit'
+      dependency: 'git-plus'
+      callback: 'git-plus:add-all-and-commit'
+      icon: 'code-working'
+      iconset: 'ion'
+    },
+        {
+          type: 'button'
+          tooltip: 'Git - Add All & Commit & Push'
+          dependency: 'git-plus'
+          callback: 'git-plus:add-all-and-commit-and-push'
+          icon: 'code-download'
+          iconset: 'ion'
+        },
+    {
+      type: 'button'
+      tooltip: 'Git Control'
+      dependency: 'git-control'
+      callback: 'git-control:toggle'
+      icon: 'speedometer'
+      iconset: 'ion'
+    },
+      {
+        type: 'button'
+        tooltip: 'Git Time Machine'
+        dependency: 'git-time-machine'
+        callback: 'git-time-machine:toggle'
+        icon: 'clock-o'
+        iconset: 'fa'
+      },
+    {
+      type: 'button'
+      tooltip: 'Git Projects'
+      dependency: 'git-projects'
+      callback: 'git-projects:toggle'
+      icon: 'git'
+      iconset: 'fa'
+    }
+      {
+        type: 'spacer'
+      },
   {
     type: 'button'
     tooltip: 'Split screen - Horizontally'
@@ -116,6 +151,25 @@ module.exports = [
     callback: 'editor:unfold-all'
     icon: 'level-down'
     iconset: 'fa'
+  },
+  {
+    type: 'spacer'
+  },
+  {
+    type: 'button'
+    tooltip: 'Colour Picker'
+    dependency: 'color-picker'
+    callback: 'color-picker:open'
+    icon: 'tint'
+    iconset: 'fa'
+  },
+  {
+    type: 'button'
+    tooltip: 'Show Pigments Palette'
+    dependency: 'pigments'
+    callback: 'pigments:show-palette'
+    icon: 'aperture'
+    iconset: 'ion'
   },
   {
     type: 'spacer'
